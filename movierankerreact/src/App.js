@@ -14,7 +14,7 @@ function App() {
       if (email.trim() === '' || password.trim() === '') return;
 
       try {
-        const response = await fetch(`https://movieranker-react/auth/${endpoint}`, {
+        const response = await fetch(`https://movieranker-react.onrender.com/auth/${endpoint}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email, password }),
