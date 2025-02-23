@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-route
 import "./styles/css/auth.css";  // Import auth styles
 import "./styles/css/movies.css"; // Import movie page styles
 import "./styles/css/fontello.css"; // Import movie page styles
-import LoginPage from "./components/LoginPage";
-import MoviesPage from "./components/MoviesPage";
+import LoginPage from "./LoginPage";
+import MoviesPage from "./MoviesPage";
 
 function App() {
   return (

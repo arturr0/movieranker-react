@@ -1,0 +1,1 @@
+npm install && npx prisma generate && npm run build && cd myreact && npm install && npm run build && cd ..
